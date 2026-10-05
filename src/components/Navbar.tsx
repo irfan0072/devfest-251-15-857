@@ -38,7 +38,8 @@ export function Navbar({
 
         <nav className="nav-links" aria-label="Main Navigation">
           <a href="#center" className="nav-item">Overview</a>
-          <a href="#escape-challenge" className="nav-item">Escape Matrix</a>
+          <a href="#escape-simulator" className="nav-item">Evacuation Simulator</a>
+          <a href="#escape-challenge" className="nav-item">Cyber Puzzle</a>
           <a href="#vibe-lab" className="nav-item">Vibe Lab</a>
           <a href="#telemetry" className="nav-item">Diagnostics</a>
           <a href="#resources" className="nav-item">Ecosystem</a>

@@ -10,6 +10,7 @@ import { Telemetry } from './components/Telemetry';
 import { Ecosystem } from './components/Ecosystem';
 import { ToastContainer, type ToastMessage } from './components/Toast';
 import { triggerConfetti } from './components/Confetti';
+import { SmartEscapeSimulator } from './components/SmartEscapeSimulator';
 import './App.css';
 
 function App() {
@@ -167,6 +168,9 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* Core Challenge: The Smart Escape Evacuation Simulator */}
+        <SmartEscapeSimulator onUnlockAchievement={addAchievement} />
 
         {/* Feature 1: The Smart Escape Matrix */}
         <EscapeChallenge onUnlockAchievement={addAchievement} />
