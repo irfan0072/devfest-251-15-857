@@ -44,10 +44,10 @@ export function SmartEscapeSimulator({ onUnlockAchievement }: SimulatorProps) {
   // Translations dictionary for bilingual support (Section 3.2)
   const t = {
     en: {
-      sectionBadge: 'OFFICIAL CHALLENGE SIMULATOR',
-      title: 'Smart Escape: Evacuation Route Simulator',
-      subtitle:
-        'Interactive building graph simulator with real-time hazard recalculation, corridor costs, and optimal exit pathfinding.',
+      sectionBadge: 'AI DEVFEST 2026 • SOLO MOCK TEST PRACTICE CHALLENGE',
+      title: 'SMART ESCAPE',
+      subtitle: 'Interactive Evacuation Route Simulator',
+      tagline: 'BUILD AN INTERACTIVE MAP • COMPUTE ROUTES • RESPOND TO CHANGING HAZARDS',
       startLocation: 'Starting Location',
       selectStartPrompt: 'Select Start (Room or Junction):',
       resetInitial: 'Reset to Initial State',
@@ -77,10 +77,10 @@ export function SmartEscapeSimulator({ onUnlockAchievement }: SimulatorProps) {
       toggleExit: 'Close / Open Exit',
     },
     bn: {
-      sectionBadge: 'অফিসিয়াল চ্যালেঞ্জ সিমুলেটর',
-      title: 'স্মার্ট এস্কেপ: জরুরি উদ্ধার পথ সিমুলেটর',
-      subtitle:
-        'রিয়েল-টাইম বিপদ পুনর্গণনা, করিডোর খরচ এবং সর্বোত্তম নির্গমন পথ সহ ইন্টারেক্টিভ বিল্ডিং ম্যাপ।',
+      sectionBadge: 'এআই দেবফেস্ট ২০২৬ • প্র্যাকটিস চ্যালেঞ্জ',
+      title: 'স্মার্ট এস্কেপ (SMART ESCAPE)',
+      subtitle: 'জরুরি উদ্ধার পথ সিমুলেটর (Evacuation Route Simulator)',
+      tagline: 'ইন্টারেক্টিভ ম্যাপ তৈরি করুন • রুট হিসাব করুন • পরিবর্তনশীল বিপদে সাড়া দিন',
       startLocation: 'শুরুর স্থান',
       selectStartPrompt: 'শুরুর স্থান নির্বাচন করুন (রুম বা জংশন):',
       resetInitial: 'প্রাথমিক অবস্থায় রিসেট করুন',
@@ -234,13 +234,14 @@ export function SmartEscapeSimulator({ onUnlockAchievement }: SimulatorProps) {
 
   return (
     <section id="escape-simulator" className="feature-section smart-escape-section">
-      <div className="section-header">
+      <div className="section-header simulator-hero-header">
         <div className="section-badge">
           <span className="badge-glow-dot"></span>
           {t.sectionBadge}
         </div>
-        <h2 className="section-title">{t.title}</h2>
-        <p className="section-subtitle">{t.subtitle}</p>
+        <h1 className="simulator-hero-title">{t.title}</h1>
+        <h2 className="simulator-hero-sub">{t.subtitle}</h2>
+        <div className="simulator-tagline-pill">{t.tagline}</div>
       </div>
 
       {/* Top Action Toolbar (Language Toggle, Reset, Upload, Export) */}

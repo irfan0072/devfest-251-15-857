@@ -31,14 +31,13 @@ export function Navbar({
             <span className="brand-pulse-dot"></span>
           </div>
           <div className="brand-text">
-            <span className="brand-title">DevFest 2026</span>
-            <span className="brand-sub">Smart Escape</span>
+            <span className="brand-title">Smart Escape</span>
+            <span className="brand-sub">AI DevFest 2026</span>
           </div>
         </a>
 
         <nav className="nav-links" aria-label="Main Navigation">
-          <a href="#center" className="nav-item">Overview</a>
-          <a href="#escape-simulator" className="nav-item">Evacuation Simulator</a>
+          <a href="#escape-simulator" className="nav-item">Evacuation Map</a>
           <a href="#escape-challenge" className="nav-item">Cyber Puzzle</a>
           <a href="#vibe-lab" className="nav-item">Vibe Lab</a>
           <a href="#telemetry" className="nav-item">Diagnostics</a>
