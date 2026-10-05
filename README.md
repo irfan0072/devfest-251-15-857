@@ -15,8 +15,9 @@ An interactive, browser-based evacuation route simulator built for the **AI DevF
 - **Participant Name:** MD Irfanur Islam Rahat
 - **Registration Number:** `251-15-857`
 - **Competition Track:** AI DevFest Solo Mock Test
+- **Final Commit ID:** `83f8834`
 - **Public GitHub Repository:** [https://github.com/irfan0072/devfest-251-15-857](https://github.com/irfan0072/devfest-251-15-857)
-- **Live Deployment Link:** [https://devfest-251-15-857.vercel.app](https://github.com/irfan0072/devfest-251-15-857)
+- **Live Deployment Link:** [https://devfest-251-15-857.vercel.app](https://devfest-251-15-857.vercel.app)
 
 ---
 
